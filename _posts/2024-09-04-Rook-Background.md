@@ -1,5 +1,5 @@
 ---
-title: 쿠버네티스 환경 구축 배경
+title: Rook-Ceph 채택 배경
 date: 2024-09-04 14:15:45 +09:00
 categories: [Kubernetes, Rook-Ceph]
 tags: [단기 계획]
@@ -49,7 +49,7 @@ Rook-Ceph의 Management Flow는 하단의 이미지와 같습니다.
 
 ## Rook-Ceph Management Flow
 
-![rook-ceph-flow](/assets/img/flowchart/rook-ceph-flow)
+![rook-ceph-flow](/assets/img/flowchart/rook-ceph-flow.png)
 
 위의 과정을 통해 Rook이 Ceph에서 정의된 가상의 리소스들을 관리하여 관리자가 요구한 상태(Desired State)를 유지하도록 도와줍니다.
 
