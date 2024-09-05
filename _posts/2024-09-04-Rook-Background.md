@@ -3,6 +3,7 @@ title: Rook-Ceph 채택 배경
 date: 2024-09-04 14:15:45 +09:00
 categories: [Kubernetes, Rook-Ceph]
 tags: [단기 계획]
+mermaid: true
 ---
 
 이번 글에서는 쿠버네티스의 저장소 배포를 위해 필요한 'Rook-Ceph' 채택에 관해 이야기해보려 합니다.
@@ -49,7 +50,20 @@ Rook-Ceph의 Management Flow는 하단의 이미지와 같습니다.
 
 ## Rook-Ceph Management Flow
 
-![rook-ceph-flow](/assets/img/flowchart/rook-ceph-flow.jpg)
+```mermaid
+graph TD
+    A[Rook Operator 배포] --> B[CRD 생성]
+    B --> C[Ceph Cluster CRD 적용]
+    C --> D[Rook이 Ceph 구성요소 배포]
+    D --> E[Ceph 클러스터 초기화]
+    E --> F[스토리지 클래스 생성]
+    F --> G[PVC 생성 및 사용]
+    G --> H[모니터링 및 관리]
+    H --> I{스케일링이 필요한가?}
+    I -->|Yes| J[CRD 업데이트]
+    J --> D
+    I -->|No| H
+```
 
 위의 과정을 통해 Rook이 Ceph에서 정의된 가상의 리소스들을 관리하여 관리자가 요구한 상태(Desired State)를 유지하도록 도와줍니다.
 
