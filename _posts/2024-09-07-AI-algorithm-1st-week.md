@@ -23,6 +23,6 @@ tags: [단기 계획, 3학년 2학기, AI 알고리즘]
 2. f는 구간 (a,b)에서 근을 가진다.
 3. 즉, 두 조건 **'a ＜ r ＜ b'와 'f(r) = 0'을 만족하는 실수 r이 반드시 존재**한다.
 
-![Desktop View](/assets/img/math/bisection.jpg){: width="700" height="700" }
+![Desktop View](/assets/img/math/bisection.jpg){: width="500" height="500" }
 
 이는 **'사잇값 정리'**를 기반으로 합니다.
