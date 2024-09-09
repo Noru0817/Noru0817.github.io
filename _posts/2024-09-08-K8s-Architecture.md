@@ -1,8 +1,8 @@
 ---
 title: 쿠버네티스 기반 학과 서버 설계
 date: 2024-09-08 10:15:38 +09:00
-categories: [Kubernetes, Server, Terms]
-tags: [단기 계획]
+categories: [Kubernetes, Server]
+tags: [단기 계획, 용어 정리]
 ---
 
 드디어, 실질적으로 서버 구축에 대한 이야기를 다루게 되었습니다 ㅎㅎ
