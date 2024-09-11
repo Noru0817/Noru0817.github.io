@@ -33,7 +33,7 @@ mermaid: true
 5. **하드 디스크 : 섹터(Sector)의 '리스트'**
    → 순서가 있는 자료구조로, 한 섹터당 512바이트 용량을 가지고 있어, 특정 데이터를 읽을 때 해당 섹터를 모두 읽어야 한다는 단점이 있다.
 
-![Desktop View](/assets/img/database/hierarchy.jpg){: width="500" height="500" }
+![Desktop View](/assets/img/database/hierarchy.jpg){: width="500" height="600" }
 
 다음은 데이터베이스 환경입니다.
 
