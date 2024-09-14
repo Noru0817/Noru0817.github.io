@@ -48,3 +48,9 @@ mermaid: true
 4. **개발 관리자**(Development managers)
 
 물론, 한 사람이 위의 4개의 역할을 모두 가지고 있을 수 있습니다! 😆
+
+### **소프트웨어 질 & 이해 관계자**
+
+![Desktop View](/assets/img/software-engineering/software-quality-stakeholder.jpg){: width="500" height="500" }
+
+오늘은 여기까지입니다. 읽어주셔서 감사합니다 😖
