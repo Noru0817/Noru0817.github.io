@@ -87,9 +87,9 @@ mermaid: true
 이 중 인터넷 상에서 가장 많이 사용되는 프로토콜이 바로 **'TCP/IP(Transmission Control Protocol/Internet Protocol)'**입니다.  
 이는 **인터넷 표준(Internet Standards)**이고, IETF(Internet Engineering Task Force)에서 개발했습니다.
 
-![Desktop View](/assets/img/computer-network/internet-structure.jpg){: width="500" height="500" }
-
 ### **Network Edge**
+
+![Desktop View](/assets/img/computer-network/network-edge.jpg){: width="500" height="500" }
 
 네트워크 엣지는 **네트워크 상에서 최말단에 있는 기기 및 장치들**을 이야기합니다. 이미 눈치 채셨을수도 있지만 최말단의 기기들을 앞서 언급했던 '호스트'라고 부릅니다.
 
@@ -97,9 +97,13 @@ mermaid: true
 
 ### **Access Networks & Physical Media**
 
-액세스 네트워크와 물리 장치들은 유선/무선으로 통신 링크를 형성하는 모든 매체를 이야기합니다. 예로는 기지국(Base Station), WIFI 기기와 같은 액세스 포인트, 라우터, 스위치 등이 있습니다.
+![Desktop View](/assets/img/computer-network/access-network-physical-media.jpg){: width="500" height="500" }
+
+액세스 네트워크와 물리 장치들은 유선/무선으로 통신 링크를 형성하는 모든 매체를 이야기합니다. 예로는 기지국(Base Station), WIFI 기기와 같은 액세스 포인트, 라우터, 스위치 등이 있습니다.`
 
 ### **Network Core**
+
+![Desktop View](/assets/img/computer-network/network-core.jpg){: width="500" height="500" }
 
 상호 연결된 라우터들을 말합니다. 이는 네트워크의 네트워크라고 부르는데, 이 구조가 바로 우리가 흔히들 알고 있는 인터넷입니다.
 
