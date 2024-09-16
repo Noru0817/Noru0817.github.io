@@ -46,7 +46,7 @@ mermaid: true
 기존에는 Linux Workstation, 또는 소위 서버라고 부르는 전통적인 장치들로만 구성되었습니다. 하지만, 얼마 지나지 않은 현재 수많은 모바일 기기, 심지어는 온습도계, 안경, 자동차 등 수많은 장치들이 인터넷의 구성요소로 자리잡게 되었는데요, 이 장치들을 **'호스트(Hosts, End systems)'**라고 부릅니다.
 
 **Network**
-**'디바이스, 라우터, 링크들의 집합'** → 특정 단체에 의해 관리됨
+**'디바이스, 라우터, 링크들의 집합'** → 특정 단체에 의해 관리 됩니다.
 
 ![Desktop View](/assets/img/computer-network/nuts-and-bolts.jpg){: width="500" height="500" }
 
