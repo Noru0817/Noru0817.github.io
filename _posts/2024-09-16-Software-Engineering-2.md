@@ -69,7 +69,7 @@ mermaid: true
 
 ### **기능적 모델링 (Functional Modeling == Static Modeling)**
 
-- 시스템의 기능성에 포커싱 → **'이 시스템에는 이러한 기능이 있다'**
+- 시스템의 기능성에 포커싱한 모델링 기법 → **'이 시스템에는 이러한 기능이 있다'**
 - 근간은 C와 같은 '구조적 프로그래밍 언어'
 - 모델 구성
   - Data Flow(Control Flow) + Data Transformations
@@ -79,3 +79,57 @@ mermaid: true
 ![Desktop View](/assets/img/software-engineering/functional-modeling.jpg){: width="500" height="500" }
 
 ### **동적 모델링 (Dynamic Modeling)**
+
+시간이 경과될 때마다 변화하는 시스템의 동적인 행동에 포커싱한 모델링 기법
+
+- 모델 구성
+  - **States + Events (the sources of state changes)**
+- 상태 머신들을 표현한다
+  - ROOM(Real-time Object-Oriented Modeling) charts
+  - Petrinet
+- 반응적 시스템 모델링에 용이
+
+![Desktop View](/assets/img/software-engineering/dynamic-modeling.jpg){: width="500" height="500" }
+
+### **정보(객체 지향) 모델링 (Information (Object-Oriented) Modeling)**
+
+- 시간이 지나도 변하지 않는 시스템 상의 정적인 요소들에 포커싱한 모델링 기법
+- 객체 (Object, Capsule)
+  - 행동과 상태에 대해 잘 정의된 경계나 정체성을 가진 개체
+    → 여기서 정체성은 **'구별 가능한 특성'**
+- 모델 구성
+  - Objects + Association between objects
+- 객체(클래스) 다이어그램으로 표현 → **UML object diagram**
+- 현실 세계 모델링에 용이 (복잡한 시스템)
+
+### **왜 객체 지향 모델링이어야 하는가?**
+
+1. **객체 지향 모델링이 더 안정적**
+   → 객체들은 시스템이 진화한다고 해서 그렇게 많이 바뀌지 않기 때문
+2. **안정적 모델들의 모델링 순서**
+   - Information Modeling → Dynamic Modeling → Functional Modeling
+     → 모델 접근법의 발전 역사의 역순
+   - 모델의 이식성이 증가
+   -
+
+### **컴포넌트 기반 소프트웨어 개발 (Component Based Software Development, 이하 CBSD)**
+
+- **컴포넌트 (Component)**
+  - 구현을 캡슐화하고 인터페이스 집합을 노출시키는 모듈식이고, 배포 가능하며, 대체 가능한 시스템의 일부
+    → Manifest 파일을 통해 인터페이스가 어떤 것이 필요한지 드러냄
+  - 컴포넌트는 하나 이상의 유형 산출물들을 가리킨다.
+- **모듈**
+
+  - 저장소 및 조작의 소프트웨어 단위
+  - 모듈은 소스 코드 모듈, 이진 코드 모듈, 그리고 실행 코드 모듈을 포함
+
+- 컴포넌트는 소프트웨어 이식성을 극대화
+- 역사적으로 CBSD는 구현 단계에 적용되어 왔음
+  - CBSD는 모델링을 마친 후 적용됨 → 그러나 현재는 애초에 설계 단계부터
+- 통상적인 CBSD 단계
+  1. 하위 시스템 분해 (Subsystem Decomposition)
+     a. 컴포넌트 식별 (설계 모델로부터)
+     b. 노드 할당
+  2. 작업 구조화
+  3. 번역
+  4. 통합
