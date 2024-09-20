@@ -14,6 +14,8 @@ mermaid: true
 - **PaaS(Platform as a Service) : 애플리케이션을 개발, 실행, 관리할 수 있는 플랫폼을 클라우드 환경에서 제공하는 서비스**
 - **IaaS(Infrastructure as a Service) : 가상화된 컴퓨팅 리소스를 클라우드를 통해 제공하는 서비스**
 
+이 내용은 후에 '컴포넌트 기반 소프트웨어 개발' 절에서 자세히 설명드리겠습니다.
+
 ## **모델 기반의 소프트웨어 개발 (Model-Based SW Development, MBSD)**
 
 - 모델링이 선행되고, 구현이 진행됩니다.
@@ -110,14 +112,17 @@ mermaid: true
    - Information Modeling → Dynamic Modeling → Functional Modeling
      → 모델 접근법의 발전 역사의 역순
    - 모델의 이식성이 증가
-   -
+
+![Desktop View](/assets/img/software-engineering/information-modeling.jpg){: width="500" height="500" }
 
 ### **컴포넌트 기반 소프트웨어 개발 (Component Based Software Development, 이하 CBSD)**
 
 - **컴포넌트 (Component)**
+
   - 구현을 캡슐화하고 인터페이스 집합을 노출시키는 모듈식이고, 배포 가능하며, 대체 가능한 시스템의 일부
     → Manifest 파일을 통해 인터페이스가 어떤 것이 필요한지 드러냄
   - 컴포넌트는 하나 이상의 유형 산출물들을 가리킨다.
+
 - **모듈**
 
   - 저장소 및 조작의 소프트웨어 단위
@@ -133,3 +138,5 @@ mermaid: true
   2. 작업 구조화
   3. 번역
   4. 통합
+
+![Desktop View](/assets/img/software-engineering/cbsd.jpg){: width="500" height="500" }
