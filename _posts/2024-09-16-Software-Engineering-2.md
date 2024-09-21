@@ -1,6 +1,6 @@
 ---
 title: 소프트웨어공학 1주차 - (2)
-date: 2024-09-19 15:29:10 +09:00
+date: 2024-09-19 15:37:10 +09:00
 categories: [3학년 2학기, 소프트웨어공학]
 tags: [단기 계획, 3학년 2학기, 소프트웨어공학]
 mermaid: true
@@ -140,3 +140,15 @@ mermaid: true
   4. 통합
 
 ![Desktop View](/assets/img/software-engineering/cbsd.jpg){: width="500" height="500" }
+
+### **IaaS, PaaS, and SaaS**
+
+![Desktop View](/assets/img/software-engineering/iaas-paas-saas.jpg){: width="500" height="500" }
+
+마지막으로 서비스의 형태에 대한 설명입니다. 그림에서 보이는 용어를 간단히 설명해드리자면 다음과 같습니다.
+
+1. IaaS : 기반, 즉 하드웨어를 서비스로 제공하는 형태입니다. 여기서 정의하는 하드웨어의 범위는 **'네트워크, 스토리지, 서버, 가상화'**까지입니다. (Ex) **Amazon Web Services (AWS) EC2, Google Cloud Compute Engine(GCE)**
+2. PaaS : 플랫폼을 서비스로 제공하는 형태입니다. 여기서 정의하는 플랫폼의 범위는 앞서 말씀드린 **'하드웨어, 런타임, 미들웨어, OS'**까지입니다. 즉, 개발자가 인프라 관리에 신경쓰지 않고 애플리케이션 개발에 집중할 수 있는 환경을 제공하는 서비스를 의미합니다. (이때, 런타임도 미들웨어의 범주에 포함됩니다) (Ex) **Heroku, Google App Engine, Microsoft Azure App Service**
+3. SaaS : 소프트웨어를 서비스로 제공하는 형태입니다. 여기서 정의하는 소프트웨어란 **'하드웨어부터 애플리케이션까지 모두 포함한 것'**이라고 보시면 되겠습니다. (Ex) **Google Workspace, Microsoft 365, Slack, Zoom**
+
+1주차 2회차에 대한 설명은 여기까지입니다. 다소 길어졌는데 긴 글 끝까지 읽어주셔서 감사합니다!!! 😌🙏
