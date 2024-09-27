@@ -74,6 +74,8 @@ VM을 사용하기 위해선 기저에 Hypervisor가 필요합니다. 이때 Hyp
     - 보안 문제
       - 공격자들이 OS의 잠재적 취약점을 사용해 VM으로의 접근을 얻으려 하기 때문에 잠재적 취약점이 존재
 
+### **Virtualization VS. Containerization**
+
 ![Desktop View](/assets/img/software-engineering/virtualization-vs-containerization.jpg){: width="500" height="500" }
 
 ### **CI/CD (Continuous Integration Continuous Delivery)**
@@ -98,6 +100,7 @@ VM을 사용하기 위해선 기저에 Hypervisor가 필요합니다. 이때 Hyp
   - 최소한의 수고를 들이면서 빈번하고 예측 가능하도록 함
 
 - **_예시_**
+
   - **컨테이너 (Container)**
   - **서비스 메쉬 (Service Mesh)**
     - 서비스 간 통신을 추상화하여 안전하고, 빠르고, 신뢰성 있게 만드는 전용 Infrastructure Layer
@@ -105,6 +108,43 @@ VM을 사용하기 위해선 기저에 Hypervisor가 필요합니다. 이때 Hyp
   - **불변 인프라 (Immutable Infrasturcture)**
   - **선언형 API들**
 
-### **Virtualization VS. Containerization**
+- **Cloud Native Computing Foundation**
+
+  - 오픈 소스이면서 어느 기기나 데이터와도 연동 가능한 생태계를 조성하고 유지함으로써 클라우드 네이티브 컴퓨팅의 채택을 추구하는 기관
+
+  - 이 혁신들을 모든 사람이 접근 가능하도록 최첨단 상태를 만드는 것이 목적
+
+### **Edge Computing**
+
+- Edge == **Cloudlet** == **Fog** → **'가까이 있는 작은 클라우드'**
+- 사용 목적이 근본적으로 Cloud를 사용하려는 것과 동일
+  - Offloading : 부하분산
+  - 가까이 있음 → 빠른 응답성 == '실시간성'
+
+#### **_Edge Computing 사용 목적_**
+
+1. **부하 분산 (Offloading)**
+   - 고 반응성 클라우드 서비스
+     a. 부하 분산으로 하여금 저전력 사용
+     b. 낮은 단대단 지연, 고 대역폭, 낮은 지터
+2. **확장성 (Scalability)**
+   - 원시 데이터를 엣지에서 분석 (클라우드는 추출된 정보 혹은 메타 데이터만 전달받음) → **'정보의 탈중앙화'**
+3. **개인정보 보호 (Privacy)**
+4. **클라우드 부재 상황 해결**
+
+#### **Software Defined Everything**
+
+1. **SDR** : Software Defined Radio
+2. **SDN** : Software Defined Network
+3. **SDV** : Software Defined Vehicle
+
+#### **SOAFEE (Scalable Open Architecture for Embedded Edge)**
+
+- ARM 사에 의해 주도
+- **_SDV를 위해 갖춰져야 할 사항_**
+  1. 컴퓨팅의 중앙화
+  2. HW와 SW의 분리
+  3. 가상화된 개발 및 검증
+  4. 안전성, 보안성, 실시간 컴퓨팅
 
 2 ~ 3주차 1회차에 대한 설명은 여기까지입니다. 끝까지 읽어주셔서 감사합니다!!! 😌
